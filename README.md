@@ -47,11 +47,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-3. Install the project in editable mode (creates the `broadcast-server` command and installs dependencies):
+3. Install project requirements:
 
 ```bash
-pip install -e .
+pip install -r requirements.txt
 ```
+
+This installs dependencies and the project in editable mode (`-e .`) from `requirements.txt`.
 
 ## Usage
 
