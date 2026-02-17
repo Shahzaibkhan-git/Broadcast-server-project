@@ -2,23 +2,29 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.ipynb_checkpoints/
 
 # Virtual environments
 .venv/
 venv/
 env/
+.python-version
 
 # Distribution / packaging
 build/
 dist/
 *.egg-info/
 .eggs/
+*.whl
+pip-wheel-metadata/
 
 # Test / coverage
 .pytest_cache/
 .coverage
 .coverage.*
 htmlcov/
+.tox/
+.nox/
 
 # Type checker / linters
 .mypy_cache/
@@ -32,3 +38,8 @@ htmlcov/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Local env / logs
+.env
+.env.*
+*.log

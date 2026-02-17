@@ -1,0 +1,2 @@
+-e .
+websockets==16.0
